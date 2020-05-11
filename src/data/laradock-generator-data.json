@@ -1,0 +1,1329 @@
+{
+  "data": {
+    "categories": [
+      {
+        "id": "6ccf9b06-1273-452e-bccb-6a05f3e8df3b",
+        "name": "Laradock",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 2,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "304f91e8-1281-497c-a84d-48ea39d85b78",
+            "category_id": "6ccf9b06-1273-452e-bccb-6a05f3e8df3b",
+            "name": "PHP Worker",
+            "description": "",
+            "active": null,
+            "variables": [
+              {
+                "id": "042e7fce-4375-4489-913b-5b25344012d7",
+                "name": "PHP_WORKER_INSTALL_BZ2",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "b4ab6e52-d645-4b58-992a-f9109b23851f",
+                "name": "PHP_WORKER_INSTALL_GMP",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "38cb6416-245b-4aa1-8420-cfbc703bd9c1",
+                "name": "PHP_WORKER_INSTALL_PGSQL",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "b9d947ff-21f6-4894-94a6-ca8b16e61d46",
+                "name": "PHP_WORKER_INSTALL_BCMATH",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "9a7fe79f-d872-4c03-892c-5dcbbd5a5aca",
+                "name": "PHP_WORKER_INSTALL_PHALCON",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "4dd84997-31dc-4610-86d9-5c1b3c5f4108",
+                "name": "PHP_WORKER_INSTALL_SOAP",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "0df98237-6e44-4ed3-9a8f-c9e1dd5fa017",
+                "name": "PHP_WORKER_INSTALL_ZIP_ARCHIVE",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "b232a1a0-406c-401f-ab76-f43df95a48c6",
+                "name": "PHP_WORKER_INSTALL_MYSQL_CLIENT",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "9cf75cce-69a0-417c-be14-d2e408131a92",
+                "name": "PHP_WORKER_INSTALL_AMQP",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "532fa64b-1510-448e-99fd-993eeb28934c",
+                "name": "PHP_WORKER_INSTALL_GHOSTSCRIPT",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "c29bc235-b1ea-4bbd-9bb7-e4f09fac8c23",
+                "name": "PHP_WORKER_INSTALL_SWOOLE",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "b069b397-e118-4996-b110-5b4735ebf4e7",
+                "name": "PHP_WORKER_INSTALL_TAINT",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "b1586978-3c3b-43ac-8b4c-3d86ba993392",
+                "name": "PHP_WORKER_INSTALL_FFMPEG",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "5cfcc648-4041-4ea8-beab-4da511e7f807",
+                "name": "PHP_WORKER_INSTALL_CASSANDRA",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "96a7c9bd-1c21-4729-9f94-1cd804a00277",
+                "name": "PHP_WORKER_INSTALL_GEARMAN",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "cbfda21f-3672-4708-8cab-d1f5535ec619",
+                "name": "PHP_WORKER_INSTALL_REDIS",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "e107b4c0-ba02-4770-bc1b-ccc47293b420",
+                "name": "PHP_WORKER_PUID",
+                "default_value": "1000",
+                "__typename": "variables"
+              },
+              {
+                "id": "d9458909-d4bf-4353-8e0e-762d7d7946a9",
+                "name": "PHP_WORKER_PGID",
+                "default_value": "1000",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "f38d4530-6eab-491b-96f0-5669fc10b4d8",
+            "category_id": "6ccf9b06-1273-452e-bccb-6a05f3e8df3b",
+            "name": "Workspace",
+            "description": "A container that holds your code.",
+            "active": true,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+        "name": "Web Servers",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 3,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "a0763de2-039b-43ef-8c96-2ad3a2e6f91c",
+            "category_id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+            "name": "Apache2",
+            "description": "The Apache HTTP Server, colloquially called Apache, is free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.",
+            "active": null,
+            "variables": [
+              {
+                "id": "a974decd-59d1-4489-a3fe-f48de037a8bf",
+                "name": "APACHE_HOST_HTTP_PORT",
+                "default_value": "80",
+                "__typename": "variables"
+              },
+              {
+                "id": "f603a08e-552d-406c-b856-5c8cf1c8fbd0",
+                "name": "APACHE_HOST_HTTPS_PORT",
+                "default_value": "443",
+                "__typename": "variables"
+              },
+              {
+                "id": "96994cb8-d06d-4331-9f96-1fe7f7527b47",
+                "name": "APACHE_HOST_LOG_PATH",
+                "default_value": "./logs/apache2",
+                "__typename": "variables"
+              },
+              {
+                "id": "2b2a63f5-d1af-4a57-9870-ea693e5276c7",
+                "name": "APACHE_SITES_PATH",
+                "default_value": "./apache2/sites",
+                "__typename": "variables"
+              },
+              {
+                "id": "3fc9f884-cd1e-4922-a91a-46df40436914",
+                "name": "APACHE_PHP_UPSTREAM_CONTAINER",
+                "default_value": "php-fpm",
+                "__typename": "variables"
+              },
+              {
+                "id": "d18ebf0b-0692-4909-a50b-ce2b8329aea7",
+                "name": "APACHE_PHP_UPSTREAM_PORT",
+                "default_value": "9000",
+                "__typename": "variables"
+              },
+              {
+                "id": "f4d110e0-5c78-4107-932d-cd1f28b208d5",
+                "name": "APACHE_PHP_UPSTREAM_TIMEOUT",
+                "default_value": "60",
+                "__typename": "variables"
+              },
+              {
+                "id": "2f519f5a-7310-488c-965a-1eb5f3482c4a",
+                "name": "APACHE_DOCUMENT_ROOT",
+                "default_value": "/var/www/",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "90af12b7-d2cf-4d13-b932-e085d9e58852",
+            "category_id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+            "name": "Caddy",
+            "description": "Caddy, sometimes clarified as the Caddy web server, is an open source, HTTP/2-enabled web server written in Go. It uses the Go standard library for its HTTP functionality. One of Caddy's most notable features is enabling HTTPS by default. ",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "e33b7c06-19c8-4466-a301-4e98e3592331",
+            "category_id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+            "name": "Nginx",
+            "description": "Nginx is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and first publicly released in 2004.",
+            "active": true,
+            "variables": [
+              {
+                "id": "7ca794d7-65f7-41f8-a661-195fe604f7ab",
+                "name": "NGINX_HOST_HTTP_PORT",
+                "default_value": "80",
+                "__typename": "variables"
+              },
+              {
+                "id": "533a2d9a-12d1-4195-abe6-4e489430e946",
+                "name": "NGINX_HOST_HTTPS_PORT",
+                "default_value": "443",
+                "__typename": "variables"
+              },
+              {
+                "id": "f3c642c0-1a6f-414f-8e37-3f172977cac5",
+                "name": "NGINX_HOST_LOG_PATH",
+                "default_value": "./logs/nginx/",
+                "__typename": "variables"
+              },
+              {
+                "id": "8cbcdeb6-db5b-45d0-b6fd-c6f9a50ec5e2",
+                "name": "NGINX_SITES_PATH",
+                "default_value": "./nginx/sites/",
+                "__typename": "variables"
+              },
+              {
+                "id": "161c664f-78c1-45bf-9e3f-733dc7bb6e7c",
+                "name": "NGINX_PHP_UPSTREAM_CONTAINER",
+                "default_value": "php-fpm",
+                "__typename": "variables"
+              },
+              {
+                "id": "52f6d899-82a2-4482-999e-55feb095944b",
+                "name": "NGINX_PHP_UPSTREAM_PORT",
+                "default_value": "9000",
+                "__typename": "variables"
+              },
+              {
+                "id": "46d3b01e-6233-4b32-8b22-86606a62e696",
+                "name": "NGINX_SSL_PATH",
+                "default_value": "./nginx/ssl/",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "0e9cfe1f-579e-474d-a7d1-01ee4a326b8c",
+        "name": "PHP Compilers",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 2,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "0942ac3d-9655-477e-a683-adda7ebdf47a",
+            "category_id": "0e9cfe1f-579e-474d-a7d1-01ee4a326b8c",
+            "name": "PHP FPM",
+            "description": "FPM (FastCGI Process Manager) is an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites.",
+            "active": true,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "bbfecf3b-6a63-4210-a577-f491ed2cae98",
+            "category_id": "0e9cfe1f-579e-474d-a7d1-01ee4a326b8c",
+            "name": "HHVM",
+            "description": "HipHop Virtual Machine is an open-source virtual machine based on just-in-time compilation that serves as an execution engine for the Hack programming language and used to support PHP execution before the release of HHVM version 4.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+        "name": "Database Management Systems",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 11,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "ce0599ce-54dc-4e6e-821e-83c57eec572e",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "MariaDB",
+            "description": "MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.",
+            "active": null,
+            "variables": [
+              {
+                "id": "b9eca4f8-ac28-40f3-996e-5828bb01df9d",
+                "name": "MARIADB_VERSION",
+                "default_value": "latest",
+                "__typename": "variables"
+              },
+              {
+                "id": "4bfe1a0c-d1c5-4114-b988-ce5a64e33700",
+                "name": "MARIADB_DATABASE",
+                "default_value": "default",
+                "__typename": "variables"
+              },
+              {
+                "id": "860fe6b4-7362-41a1-aeca-33e82dece1aa",
+                "name": "MARIADB_USER",
+                "default_value": "default",
+                "__typename": "variables"
+              },
+              {
+                "id": "313e819c-a881-46ce-b91a-d144b1518dd4",
+                "name": "MARIADB_PASSWORD",
+                "default_value": "secret",
+                "__typename": "variables"
+              },
+              {
+                "id": "6aa27ae1-9d57-48f0-a9e2-35a49d3d4304",
+                "name": "MARIADB_PORT",
+                "default_value": "3306",
+                "__typename": "variables"
+              },
+              {
+                "id": "7dd5fe46-9a35-4ee1-8755-30646b2712a5",
+                "name": "MARIADB_ROOT_PASSWORD",
+                "default_value": "root",
+                "__typename": "variables"
+              },
+              {
+                "id": "2885460b-7074-47e4-9c6f-f122f6647a57",
+                "name": "MARIADB_ENTRYPOINT_INITDB",
+                "default_value": "./mariadb/docker-entrypoint-initdb.d",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "2c3f053d-b84d-49dd-b226-b1cfaa2f22dd",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "MySQL",
+            "description": "MySQL is an open-source relational database management system. Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language.",
+            "active": true,
+            "variables": [
+              {
+                "id": "d46b0ce4-2b73-4643-aec7-40605bec3413",
+                "name": "MYSQL_VERSION",
+                "default_value": "latest",
+                "__typename": "variables"
+              },
+              {
+                "id": "4bac1072-4e90-4c3e-99e0-3599fbb6208a",
+                "name": "MYSQL_DATABASE",
+                "default_value": "default",
+                "__typename": "variables"
+              },
+              {
+                "id": "ee3771e1-d858-4d13-a97c-6d4bdd79e578",
+                "name": "MYSQL_USER",
+                "default_value": "default",
+                "__typename": "variables"
+              },
+              {
+                "id": "d45b41e0-2be6-47bc-8c3f-0e1c3d7a53bd",
+                "name": "MYSQL_PASSWORD",
+                "default_value": "secret",
+                "__typename": "variables"
+              },
+              {
+                "id": "0b0fc119-2b8b-4431-b3e9-be0a2cf672c8",
+                "name": "MYSQL_PORT",
+                "default_value": "3306",
+                "__typename": "variables"
+              },
+              {
+                "id": "107890cb-1de2-48b7-9ca5-330737d70e6b",
+                "name": "MYSQL_ROOT_PASSWORD",
+                "default_value": "root",
+                "__typename": "variables"
+              },
+              {
+                "id": "c654d668-cf14-430d-ad2f-ad20b7a2c578",
+                "name": "MYSQL_ENTRYPOINT_INITDB",
+                "default_value": "./mysql/docker-entrypoint-initdb.d",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "d61ea669-6555-402c-af9f-01def1c16686",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "CouchDB",
+            "description": "DescriptionApache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data, it uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API. ",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "78e16490-bc09-47f7-af5e-82e634fafd5b",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "PostgreSQL",
+            "description": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users.",
+            "active": null,
+            "variables": [
+              {
+                "id": "9a32f6e7-5530-4519-b7f7-ac6eb20daab1",
+                "name": "POSTGRES_VERSION",
+                "default_value": "alpine",
+                "__typename": "variables"
+              },
+              {
+                "id": "afb76b44-abcf-492d-9464-5340d1ad9d51",
+                "name": "POSTGRES_DB",
+                "default_value": "default",
+                "__typename": "variables"
+              },
+              {
+                "id": "02b17ae9-cd94-404b-9536-90c3e2bab3d9",
+                "name": "POSTGRES_USER",
+                "default_value": "default",
+                "__typename": "variables"
+              },
+              {
+                "id": "545c22b0-d3fa-4fe6-8059-fc828c097b40",
+                "name": "POSTGRES_PASSWORD",
+                "default_value": "secret",
+                "__typename": "variables"
+              },
+              {
+                "id": "97eff99b-9982-475e-93d1-8e299335dc1d",
+                "name": "POSTGRES_PORT",
+                "default_value": "5432",
+                "__typename": "variables"
+              },
+              {
+                "id": "c5f807d3-8c13-473f-aa45-99da9f526f0e",
+                "name": "POSTGRES_ENTRYPOINT_INITDB",
+                "default_value": "./postgres/docker-entrypoint-initdb.d",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "20d2a2cd-d345-4e46-b4bf-ec3ec4ed7968",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "PostGIS",
+            "description": "PostGIS is a spatial database extender for PostgreSQL object-relational database. It adds support for geographic objects allowing location queries to be run in SQL.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "023922be-45a9-4ac4-9d57-d7dcced31731",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "Percona",
+            "description": "Percona Server for MySQL is a distribution of the MySQL relational database management system created by Percona. Percona Server for MySQL is an open source relational database management system. It is a free, fully compatible drop in replacement for Oracle MySQL.",
+            "active": null,
+            "variables": [
+              {
+                "id": "3bdc8e3d-61eb-4dad-8409-379140751f74",
+                "name": "PERCONA_DATABASE",
+                "default_value": "homestead",
+                "__typename": "variables"
+              },
+              {
+                "id": "dbb38d74-666c-4e18-84fa-47d1b1406a1d",
+                "name": "PERCONA_USER",
+                "default_value": "homestead",
+                "__typename": "variables"
+              },
+              {
+                "id": "acaccec3-7a86-4768-9620-f663871296f3",
+                "name": "PERCONA_PASSWORD",
+                "default_value": "secret",
+                "__typename": "variables"
+              },
+              {
+                "id": "520ff0b1-6204-4227-ac3c-3ea262a1579e",
+                "name": "PERCONA_PORT",
+                "default_value": "3306",
+                "__typename": "variables"
+              },
+              {
+                "id": "1e4e746f-6dfa-440d-b861-9a5d894d0776",
+                "name": "PERCONA_ROOT_PASSWORD",
+                "default_value": "root",
+                "__typename": "variables"
+              },
+              {
+                "id": "624b7558-be93-47c2-b3a2-19314ed00170",
+                "name": "PERCONA_ENTRYPOINT_INITDB",
+                "default_value": "./percona/docker-entrypoint-initdb.d",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "271e6a41-2164-43d0-8282-1168a2ab6ede",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "MSSQL",
+            "description": "Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.",
+            "active": null,
+            "variables": [
+              {
+                "id": "8ce0a036-7af0-4ce9-818e-0a54d2f70900",
+                "name": "MSSQL_DATABASE",
+                "default_value": "master",
+                "__typename": "variables"
+              },
+              {
+                "id": "5b3e4dbe-ec8d-4cff-a645-44ccf6817341",
+                "name": "MSSQL_PASSWORD",
+                "default_value": "\"yourStrong(!)Password\"",
+                "__typename": "variables"
+              },
+              {
+                "id": "2c3d1534-5aa7-4737-9964-e5496287acc7",
+                "name": "MSSQL_PORT",
+                "default_value": "1433",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "f5112c33-7da4-4abd-9251-be6d3ffa5252",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "MongoDB",
+            "description": "MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "cf8a7bff-5191-439b-b0dd-ce49b4f7d8d0",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "Neo4j",
+            "description": "Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing, Neo4j is the most popular graph database according to DB-Engines ranking, and the 22nd most popular database overall.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "92e3f512-5c1c-497d-a97a-b737e2a03bb1",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "RethinkDB",
+            "description": "RethinkDB is a free and open-source, distributed document-oriented database originally created by the company of the same name. The database stores JSON documents with dynamic schemas, and is designed to facilitate pushing real-time updates for query results to applications.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "6f03ebb3-bde8-487e-b9e2-5241c1338f27",
+            "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+            "name": "Cassandra",
+            "description": "DescriptionApache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "9aae150e-0475-4796-9ab4-67acece37227",
+        "name": "Database Management Apps",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 5,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "f5fa3c9c-c3cf-419f-a530-f7f16fc33cbc",
+            "category_id": "9aae150e-0475-4796-9ab4-67acece37227",
+            "name": "pgAdmin",
+            "description": "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "bf16f834-f74c-421e-b1eb-7fc07a381794",
+            "category_id": "9aae150e-0475-4796-9ab4-67acece37227",
+            "name": "Redis Web UI",
+            "description": "phpRedisAdmin is a simple web interface to manage Redis databases.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "296ebf4f-a23e-4a10-9d4d-9fa3c6b7a762",
+            "category_id": "9aae150e-0475-4796-9ab4-67acece37227",
+            "name": "MongoDB Web UI",
+            "description": "Cross-platform and self hosted, easy to use, intuitive mongodb management tool - Formerly Mongoclient.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "3628c17c-bd71-4606-b4bc-4cdd9a05317d",
+            "category_id": "9aae150e-0475-4796-9ab4-67acece37227",
+            "name": "phpMyAdmin",
+            "description": "phpMyAdmin is a free and open source administration tool for MySQL and MariaDB. As a portable web application written primarily in PHP, it has become one of the most popular MySQL administration tools, especially for web hosting services.",
+            "active": true,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "a23cb728-6976-4671-964d-79a5de0a6ad8",
+            "category_id": "9aae150e-0475-4796-9ab4-67acece37227",
+            "name": "Adminer",
+            "description": "DescriptionAdminer is a tool for managing content in MySQL databases. Adminer is distributed under Apache license in a form of a single PHP file. Its author is Jakub Vrána who started to develop this tool as a light-weight alternative to phpMyAdmin, in July 2007.Supports: MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, SimpleDB, Elasticsearch, MongoDB, Firebird.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "7d8d42bc-9c16-49ab-a066-267a4e430fff",
+        "name": "Search Engines",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 3,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "45980e78-75f4-4735-ac47-ec8d30a39cf8",
+            "category_id": "7d8d42bc-9c16-49ab-a066-267a4e430fff",
+            "name": "Manticore Search",
+            "description": "Open source text search engine for big data and stream filtering.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "3abb3ede-ecf3-4f0b-9da1-6d30be05dba2",
+            "category_id": "7d8d42bc-9c16-49ab-a066-267a4e430fff",
+            "name": "ElasticSearch",
+            "description": "Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "a0149239-a17b-48ea-815d-faf95325cbf2",
+            "category_id": "7d8d42bc-9c16-49ab-a066-267a4e430fff",
+            "name": "Apache Solr",
+            "description": "Solr is an open-source enterprise-search platform, written in Java, from the Apache Lucene project. Its major features include full-text search, hit highlighting, faceted search, real-time indexing, dynamic clustering, database integration, NoSQL features and rich document handling.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "394836ec-a232-40f0-80e6-726466577c23",
+        "name": "Cache Engines",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 5,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "d55bf6d2-0fb7-45b8-8395-de67e7724101",
+            "category_id": "394836ec-a232-40f0-80e6-726466577c23",
+            "name": "Redis Cluster",
+            "description": "Redis Cluster is an active-passive cluster implementation that consists of master and slave nodes.",
+            "active": null,
+            "variables": [
+              {
+                "id": "be847b47-6ab8-47ac-af5d-e8b4c64119b1",
+                "name": "REDIS_CLUSTER_PORT_RANGE",
+                "default_value": "7000-7005",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "f51d8c7c-bf04-424d-82a7-d826be5c1261",
+            "category_id": "394836ec-a232-40f0-80e6-726466577c23",
+            "name": "Aerospike",
+            "description": "Aerospike is a flash-optimized in-memory open source NoSQL database and the name of the eponymous company that produces it.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "bdc52cfa-f7c4-4388-abd8-3b2fbb299b1c",
+            "category_id": "394836ec-a232-40f0-80e6-726466577c23",
+            "name": "Redis",
+            "description": "Redis is an in-memory data structure project implementing a distributed, in-memory key-value database with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes.",
+            "active": null,
+            "variables": [
+              {
+                "id": "81d5bfda-8532-423f-bb87-10b485216161",
+                "name": "REDIS_PORT",
+                "default_value": "6379",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "90f3939c-33e3-466f-a3fc-4b5bb86f90f8",
+            "category_id": "394836ec-a232-40f0-80e6-726466577c23",
+            "name": "Memcached",
+            "description": "Memcached is a general-purpose distributed memory-caching system. It is often used to speed up dynamic database-driven websites by caching data and objects in RAM to reduce the number of times an external data source must be read. Memcached is free and open-source software, licensed under the Revised BSD license.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "49e3ec91-8068-4827-868d-849bb2baed5c",
+            "category_id": "394836ec-a232-40f0-80e6-726466577c23",
+            "name": "Varnish",
+            "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs. In contrast to other web accelerators, such as Squid, which began life as a client-side cache, or Apache and nginx, which are primarily origin servers, Varnish was designed as an HTTP accelerator.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "0c0ad504-ec5c-4865-abb2-186a55291145",
+        "name": "Docker",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 1,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "8ef84d5d-30b6-4211-bc08-7d34538be2af",
+            "category_id": "0c0ad504-ec5c-4865-abb2-186a55291145",
+            "name": "Portainer",
+            "description": "Build and manage your Docker environments with ease today.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+        "name": "Message Brokers",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 7,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "9b958741-48f8-4553-81b0-91bca2489d0e",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "RabbitMQ Admin Console",
+            "description": "",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "d4fd3f55-6695-4357-b771-013a3bd2fdae",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "Beanstalkd Admin Console",
+            "description": "",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "4d908b90-74a6-448b-99f9-de9fd8beb878",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "Laravel Horizon",
+            "description": "Laravel Horizon is a queue manager that gives you full control over your queues, it provides means to configure how your jobs are processed, generate analytics, and perform different queue-related tasks from within a nice dashboard.",
+            "active": null,
+            "variables": [
+              {
+                "id": "2cef1fe2-cbd1-450e-b3ca-697137b3fd75",
+                "name": "LARAVEL_HORIZON_INSTALL_BZ2",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "04d0538a-07b4-4fb0-9d80-bc1efed55591",
+                "name": "LARAVEL_HORIZON_INSTALL_GMP",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "cc0bb75f-4f0e-4c0b-b183-3def60bb3d85",
+                "name": "LARAVEL_HORIZON_INSTALL_SOCKETS",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "cc8e1713-1bb4-40b7-bd6f-8d32d4e23eb9",
+                "name": "LARAVEL_HORIZON_INSTALL_YAML",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "a148c52f-55a8-4694-9e5a-3b399d3c8452",
+                "name": "LARAVEL_HORIZON_INSTALL_PHPREDIS",
+                "default_value": "true",
+                "__typename": "variables"
+              },
+              {
+                "id": "e6553c99-17fe-45e5-aa8a-ba612ddacea3",
+                "name": "LARAVEL_HORIZON_INSTALL_MONGO",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "e15bc1a7-88f8-471b-8f3f-4cbf9a147888",
+                "name": "LARAVEL_HORIZON_INSTALL_FFMPEG",
+                "default_value": "false",
+                "__typename": "variables"
+              },
+              {
+                "id": "df07c2f6-bee4-4d31-917a-f0ebf7960e55",
+                "name": "LARAVEL_HORIZON_PGID",
+                "default_value": "1000",
+                "__typename": "variables"
+              },
+              {
+                "id": "e94f6794-06da-42d5-8a95-5b4c1d4362fd",
+                "name": "LARAVEL_HORIZON_PUID",
+                "default_value": "1000",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "8dd8f368-490b-489f-aa7c-1facd5d1756f",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "RabbitMQ",
+            "description": "RabbitMQ is an open-source message-broker software that originally implemented the Advanced Message Queuing Protocol and has since been extended with a plug-in architecture to support Streaming Text Oriented Messaging Protocol, Message Queuing Telemetry Transport, and other protocols.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "7c7d87b7-ad83-4289-9846-01b6cf7c8a84",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "Beanstalkd",
+            "description": "Beanstalk is a simple, fast work queue.  Its interface is generic, but was originally designed for reducing the latency of page views in high-volume web applications by running time-consuming tasks asynchronously.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "db08b26b-f810-4bd3-bd48-d41776f60786",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "Eclipse Mosquitto",
+            "description": "Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.  The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "98fcfe75-8341-4dfe-8069-3b36d6db5bf2",
+            "category_id": "cbd8ff3a-927d-4076-85df-c990b0e75e56",
+            "name": "Gearman",
+            "description": "Gearman is an open-source application framework designed to distribute appropriate computer tasks to multiple computers, so large tasks can be done more quickly.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "82346f16-1c0c-4adc-ac07-f251f43ebd77",
+        "name": "CI / CD",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 1,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "5fce85e7-62d3-41a5-861f-233ee48928a6",
+            "category_id": "82346f16-1c0c-4adc-ac07-f251f43ebd77",
+            "name": "Jenkins",
+            "description": "Jenkins is a free and open source automation server. Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+        "name": "Misc",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 14,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "21072c3c-336e-4c41-9a6d-0ad6a1cae9b8",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Apache ZooKeeper",
+            "description": "Centralized service for distributed systems to a hierarchical key-value store.",
+            "active": null,
+            "variables": [
+              {
+                "id": "4ef3bc0f-128c-4258-91bf-48b0d54982f3",
+                "name": "ZOOKEEPER_PORT",
+                "default_value": "2181",
+                "__typename": "variables"
+              }
+            ],
+            "__typename": "services"
+          },
+          {
+            "id": "3cdd2630-289b-458a-91eb-c74c24d8bebd",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "LogStash",
+            "description": "Server-side data processing pipeline that ingests data from a multitude of sources simultaneously.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "3e3d0126-e9f6-463c-a591-48b638c21fde",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Swoole",
+            "description": "Production-Grade Async programming Framework for PHP",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "d2ba09fb-a11c-481c-a92d-67245fc61860",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "SonarQube",
+            "description": "Continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs and more.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "e6ae9622-9e80-478a-9ddb-97e51c9feaa4",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Gitlab",
+            "description": "A single application for the entire software development lifecycle.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "33f94acc-0752-45c7-ae49-767642b0ead5",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Blackfire",
+            "description": "Empowers all PHP developers and IT/Ops to continuously verify and improve their app’s performance",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "268931b5-21f8-4c14-91a2-b10517761ddb",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Laravel Echo",
+            "description": "Bring the power of WebSockets to your Laravel applications",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "6eceed3f-c5e7-42a9-b6fb-ca9013b320fb",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Minio",
+            "description": "Cloud storage server released under Apache License v2, compatible with Amazon S3.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "236ce0ae-aae0-4517-b6da-20e5d0a2b314",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Thumbor",
+            "description": "Photo thumbnail service",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "a36ae4fd-fe5f-473b-93b9-8d1cc7b36158",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Docker Registry",
+            "description": "The Docker Registry implementation for storing and distributing Docker images)",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "48f0c9af-ab7e-49be-86bd-13dfabf2b406",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Docker Web UI",
+            "description": "A browser-based solution for browsing and modifying a private Docker registry.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "b4226174-0dd4-4196-8f23-45f42cdb753c",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "AWS EB CLI",
+            "description": "CLI that helps you deploy and manage your AWS Elastic Beanstalk applications and environments.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "386c9baa-a1eb-4eec-989d-f5dd9c9076c3",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "IPython",
+            "description": "Provides a rich architecture for interactive computing.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "78ec2f91-742e-41e9-9e35-2429c2aaa10e",
+            "category_id": "55558b1c-f8f1-4625-a82d-df75a8d7234a",
+            "name": "Jupyter Hub",
+            "description": "Jupyter notebook for multiple users.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "261f9ab0-e08c-4318-9798-94faaabcd557",
+        "name": "Load Balancers",
+        "description": "",
+        "services_aggregate": {
+          "aggregate": {
+            "count": 2,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "7b6449e2-cfcd-47d9-95ea-cbf22a55d0a4",
+            "category_id": "261f9ab0-e08c-4318-9798-94faaabcd557",
+            "name": "HAProxy",
+            "description": "HAProxy is free, open source software that provides a high availability load balancer and proxy server for TCP and HTTP-based applications that spreads requests across multiple servers. It is written in C and has a reputation for being fast and efficient.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "97e9d742-35f2-4f28-8d1c-47f200143b54",
+            "category_id": "261f9ab0-e08c-4318-9798-94faaabcd557",
+            "name": "Traefik",
+            "description": "Traefik (pronounced traffic) is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, ...) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "d8cb7d80-7ff6-4b4b-96aa-0867bd1bc1e8",
+        "name": "Monitoring",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 4,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "96416576-dcd6-4867-8d18-621cf2b4e219",
+            "category_id": "d8cb7d80-7ff6-4b4b-96aa-0867bd1bc1e8",
+            "name": "NetData",
+            "description": "Netdata is an open source tool to visualize and monitor real-time metrics, optimized to accumulate all types of data, such as CPU usage, disk activity, SQL queries, visits to a website, etc.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "7c126e74-862d-4002-9923-70c10f793f04",
+            "category_id": "d8cb7d80-7ff6-4b4b-96aa-0867bd1bc1e8",
+            "name": "Grafana",
+            "description": "Grafana is a multi-platform open source analytics and interactive visualization software available since 2014. It provides charts, graphs, and alerts for the web when connected to supported data sources. It is expandable through a plug-in system.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "daae7334-0eb4-4bad-8440-3988597c64d9",
+            "category_id": "d8cb7d80-7ff6-4b4b-96aa-0867bd1bc1e8",
+            "name": "Metabase",
+            "description": "Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.",
+            "active": false,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "2232f0ab-9b44-400f-9631-755bd45d04b7",
+            "category_id": "d8cb7d80-7ff6-4b4b-96aa-0867bd1bc1e8",
+            "name": "Kibana",
+            "description": "Kibana is an open source data visualization dashboard for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "76f92202-eb09-4692-a72f-8fe9b167f0d2",
+        "name": "Log Management",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 1,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "01d8a5c2-9321-40c9-a3af-59840ad1ca1c",
+            "category_id": "76f92202-eb09-4692-a72f-8fe9b167f0d2",
+            "name": "Graylog",
+            "description": "Graylog is an open source log management platform.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "7ba5c1fd-10a5-4f41-8147-9389caa440bf",
+        "name": "Testing",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 1,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "a9b41b96-2588-4ebf-b70e-ce14269d3cac",
+            "category_id": "7ba5c1fd-10a5-4f41-8147-9389caa440bf",
+            "name": "Selenium",
+            "description": "Selenium is a portable framework for testing web applications. Selenium provides a playback tool for authoring functional tests without the need to learn a test scripting language.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "e91a26a9-c395-4639-94d1-38f897629159",
+        "name": "Mail Servers",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 3,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "f079fcb2-8074-4b5f-ac2e-1434678dc2e9",
+            "category_id": "e91a26a9-c395-4639-94d1-38f897629159",
+            "name": "Mailhog",
+            "description": "MailHog is an email testing tool for developers.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "0b05cad5-fe19-4598-9ffa-2dcc502aa91b",
+            "category_id": "e91a26a9-c395-4639-94d1-38f897629159",
+            "name": "Mailu",
+            "description": "Mailu is a simple yet full-featured mail server as a set of Docker images. It is free software (both as in free beer and as in free speech), open to suggestions and external contributions. The project aims at providing people with an easily setup, easily maintained and full-featured mail server while not shipping proprietary software nor unrelated features often found in popular groupware.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "0ff69266-c643-44d3-a3e0-97149e3d92d4",
+            "category_id": "e91a26a9-c395-4639-94d1-38f897629159",
+            "name": "MailDev",
+            "description": "SMTP Server + Web Interface for viewing and testing emails during development. MailDev is a simple way to test your project's generated emails during development with an easy to use web interface that runs on your machine built on top of Node.js.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      },
+      {
+        "id": "cabeed52-514b-45e9-95b6-1fba31b8cc57",
+        "name": "IDE’s",
+        "description": null,
+        "services_aggregate": {
+          "aggregate": {
+            "count": 3,
+            "__typename": "services_aggregate_fields"
+          },
+          "__typename": "services_aggregate"
+        },
+        "services": [
+          {
+            "id": "6a9c22db-cc09-40e2-a79c-826082867a91",
+            "category_id": "cabeed52-514b-45e9-95b6-1fba31b8cc57",
+            "name": "Web IDE",
+            "description": "",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "3483359d-b734-44f4-bd6a-519f03b61397",
+            "category_id": "cabeed52-514b-45e9-95b6-1fba31b8cc57",
+            "name": "Theia",
+            "description": "Eclipse Theia is a free and open-source integrated development environment framework for desktop and web applications. It is implemented in TypeScript, is based on Visual Studio Code, and emphasizes extensibility.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          },
+          {
+            "id": "b969b5bd-87fb-4dc4-8377-0bd919a9a533",
+            "category_id": "cabeed52-514b-45e9-95b6-1fba31b8cc57",
+            "name": "ICE Coder",
+            "description": "ICEcoder is a browser based code editor, which provides a modern approach to building websites. By allowing you to code directly within the web browser, online or offline, it means you only need one program (your browser) to develop sites, plus can test on actual web servers. After development, you can also maintain the website easily, all of which make for speedy and smart development.",
+            "active": null,
+            "variables": [],
+            "__typename": "services"
+          }
+        ],
+        "__typename": "categories"
+      }
+    ]
+  }
+}

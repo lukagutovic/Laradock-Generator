@@ -1,0 +1,84 @@
+.port-style-div {
+  padding-top: 80px;
+}
+
+.input-style {
+  width: 450px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  outline: none;
+}
+
+.button-set-to-default {
+  height: 32px;
+  width: 85px;
+  border-left: none;
+  background: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: rgb(116, 113, 113);
+}
+.input-wrapper {
+  box-shadow: 2px 1px 4px 1px #afafaf;
+}
+
+.wrapper-style {
+  display: flex;
+  flex-direction: row;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.short-explanation {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #646464;
+}
+.description-style {
+  color: #646464;
+}
+.description-style {
+  h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+  }
+}
+.MuiTypography-root:hover{
+    text-decoration: none;
+}
+
+.back-arrow-style {
+  font-size: 30px;
+  color: black;
+}
+
+.container {
+  margin-top: -30px;
+}
+
+.save-button-style input {
+  height: 40px;
+  width: 100px;
+  background-color: #8a2be2;
+  box-shadow: 2px 1px 4px 1px #afafaf;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.service-logo-style {
+  width: 400px;
+  height: 350px;
+  float: right;
+  margin-top: -180px;
+}
+
+.service-description-style {
+  width: 400px;
+}

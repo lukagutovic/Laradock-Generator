@@ -1,0 +1,90 @@
+.main-card-wrapper {
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+  width: 95%;
+}
+.main-card {
+  margin-top: -270px;
+  width: 75%;
+  padding: 5%;
+}
+.search-and-p {
+  p {
+    float: right;
+    position: relative;
+    left: -100px;
+  }
+}
+.button-wrapper {
+  position: relative;
+  margin-left: 85px;
+}
+.button1-style button {
+  width: 150px;
+  height: 45px;
+  font-size: 12px;
+  color: white;
+  font-size: 15px;
+}
+.button2-style button {
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+}
+.sql-image {
+  width: 300px;
+  height: 200px;
+  margin-left: 120px;
+}
+
+.most-popular-categories h2 {
+  margin-top: 50px;
+  p {
+    font-weight: 600;
+  }
+}
+.box-style {
+  button {
+    margin-top: 0;
+    background: #7e57c2;
+    border-radius: 0;
+    float: right;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.most-popular-categories {
+  padding: 5%;
+  margin-top: -120px;
+}
+
+.services-style {
+  padding: 0 5% 0 5%;
+}
+
+.toggle-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -30%;
+}
+.search-input-style {
+  width: 300px;
+  height: 60px;
+  color: rgb(116, 113, 113);
+}
+.toogle-holder {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.toggle-component {
+  margin-top: -2px;
+  width: 150px;
+  color: rgb(116, 113, 113);
+}

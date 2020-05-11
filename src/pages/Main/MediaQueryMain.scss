@@ -1,0 +1,400 @@
+// mixins media query
+@mixin paddingTop {
+  padding-top: 20px;
+}
+@mixin buttonsStyle1 {
+  width: 100px;
+  height: 45px;
+  font-size: 15px;
+}
+@mixin buttonsStyle2 {
+  width: 90px;
+  height: 45px;
+  font-size: 12px;
+}
+@mixin buttonsStyle3 {
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+}
+@mixin inputStyle {
+  width: 180px;
+  height: 40px;
+}
+
+// media query
+
+@media (max-width: 860px) {
+  .most-popular-categories {
+    margin-top: 10px;
+  }
+  .testClasa {
+    margin-top: 20px;
+  }
+  .search-input-style {
+    @include inputStyle();
+  }
+  .button1-style {
+    margin-left: 200px;
+  }
+  .button-wrapper {
+    position: relative;
+    margin-left: 0px;
+  }
+  .button1-style button {
+    @include buttonsStyle1();
+  }
+  .button2-style button {
+    @include buttonsStyle1();
+  }
+}
+@media (max-width: 777px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -25px;
+  }
+  .button1-style button {
+    @include buttonsStyle2();
+  }
+  .button2-style button {
+    @include buttonsStyle2();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+}
+@media (max-width: 722px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -45px;
+  }
+  .button1-style button {
+    @include buttonsStyle2();
+  }
+  .button2-style button {
+    @include buttonsStyle2();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+}
+@media (max-width: 684px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -55px;
+  }
+  .button1-style button {
+    @include buttonsStyle2();
+  }
+  .button2-style button {
+    @include buttonsStyle2();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+}
+@media (max-width: 650px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -75px;
+  }
+  .button1-style button {
+    @include buttonsStyle2();
+  }
+  .button2-style button {
+    @include buttonsStyle2();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+}
+@media (max-width: 643px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -100px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+}
+
+@media (max-width: 640px) {
+  .search-input-style {
+    @include inputStyle();
+  }
+  .toggle-component {
+    font-size: 15px;
+  }
+  .download-button {
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    margin-left: -150px;
+  }
+  .most-popular-categories {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .testClasa {
+    margin-top: 20px;
+  }
+  .most-popular-categories h2 {
+    padding-top: 20px;
+  }
+  .services-style h2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .button-wrapper {
+    position: relative;
+    margin-left: -120px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+    margin-left: 10px;
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+}
+@media (max-width: 560px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -120px;
+  }
+  .toggle-component {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input-style {
+    @include inputStyle();
+  }
+  .toggle-component {
+    font-size: 15px;
+  }
+  .download-button {
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+  }
+  .button-wrapper {
+    position: relative;
+    margin-left: -100px;
+  }
+  .most-popular-categories h2 {
+    padding-top: 20px;
+  }
+  .most-popular-categories {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .testClasa {
+    @include paddingTop();
+  }
+
+  .button1-style {
+    margin-left: 100px;
+  }
+  .services-style h2 {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+}
+@media (max-width: 467px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -105px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+  .toggle-component {
+    display: none;
+  }
+}
+@media (max-width: 438px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -120px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+}
+@media (max-width: 412px) {
+  .button-wrapper {
+    position: relative;
+    margin-left: -105px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+  .toggle-component {
+    display: none;
+  }
+  .toogle-holder {
+    margin-left: -50px;
+    margin-top: 85px;
+  }
+  .MuiContainer-root {
+    margin-left: 200px;
+  }
+  .most-popular-categories {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+  }
+  .main-card h2 {
+    @include paddingTop();
+  }
+  .most-popular-categories h2 {
+    @include paddingTop();
+  }
+  a.button-style-service-card {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .service-images {
+    width: 200px !important;
+    height: 130px !important;
+  }
+}
+@media (max-width: 360px) {
+  .MuiContainer-root {
+    margin-left: 200px;
+  }
+  .most-popular-categories {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+  }
+  .most-popular-categories h2 {
+    padding-top: 20px;
+  }
+  .services-style h2 {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  .button-wrapper {
+    position: relative;
+    margin-left: -120px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+  .toggle-component {
+    display: none;
+  }
+  .toogle-holder {
+    margin-left: -50px;
+    margin-top: 85px;
+  }
+  .main-card h2 {
+    @include paddingTop();
+  }
+  .header {
+    padding: 5%;
+  }
+  a.button-style-service-card {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .service-images {
+    width: 150px !important;
+    height: 100px !important;
+    margin-left: -8px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .MuiContainer-root {
+    margin-left: 200px;
+  }
+  .most-popular-categories {
+    margin-left: -15px;
+    width: 100%;
+    padding: 20px;
+  }
+  .search-input-style {
+    width: 150px;
+  }
+  .MuiTypography-root {
+    font-size: 11px;
+  }
+  a.button-style-service-card {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .service-images {
+    width: 150px !important;
+    height: 100px !important;
+    margin-left: -8px !important;
+  }
+  .most-popular-categories h2 {
+    padding-top: 20px;
+  }
+  .services-style h2 {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  .button-wrapper {
+    position: relative;
+    margin-left: -120px;
+  }
+  .button1-style button {
+    @include buttonsStyle3();
+  }
+  .button2-style button {
+    @include buttonsStyle3();
+  }
+  .toggle-component {
+    display: none;
+  }
+  .toogle-holder {
+    margin-left: -50px;
+    margin-top: 85px;
+  }
+  .main-card h2 {
+    @include paddingTop();
+  }
+  .header {
+    padding: 5%;
+  }
+}
+
+// media query ends

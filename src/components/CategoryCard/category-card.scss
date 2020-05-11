@@ -1,0 +1,43 @@
+.toggle-button {
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+}
+
+.toggle-button.round {
+  border-radius: 34px;
+  &::before {
+    border-radius: 50%;
+  }
+}
+
+.databases-wrapper {
+  padding-top: 50px;
+  p {
+    font-weight: 600;
+  }
+}
+
+.image-style {
+  height: 200px;
+  z-index: 0;
+  opacity: 0.2;
+  position: relative;
+  top: 150px;
+}
+.categories-logo-style {
+  margin-left: 150px;
+  position: absolute;
+  height: 100px;
+  margin-top: 0px;
+  z-index: -1;
+}
+.category-name {
+  width: 100px;
+  margin-top: -20px;
+  font-size: 14px;
+}
+.category-length {
+  color: rgb(116, 113, 113);
+  margin-top: -30px;
+}

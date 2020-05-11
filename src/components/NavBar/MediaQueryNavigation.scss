@@ -1,0 +1,46 @@
+// media query
+@media (max-width: 1170px) {
+  .navigation-style {
+    background-size: 1170px;
+  }
+}
+@media (max-width: 1100px) {
+  .navigation-style {
+    background-size: 1100px;
+  }
+}
+@media (max-width: 860px) {
+  .navigation-style {
+    background-size: 860px;
+  }
+}
+
+@media (max-width: 640px) {
+  .navigation-style {
+    background-size: 640px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigation-style {
+    background-size: 576px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation-style {
+    background-size: 480px 250px;
+  }
+}
+@media (max-width: 375px) {
+  .navigation-style {
+    background-size: 360px 220px;
+  }
+}
+
+@media (max-width: 360px) {
+  .navigation-style {
+    background-size: 360px 220px;
+  }
+}
+// media query ends

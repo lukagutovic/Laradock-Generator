@@ -1,0 +1,119 @@
+// Mixins media query
+@mixin size1 {
+  width: 400px;
+}
+@mixin size2 {
+  width: 250px;
+}
+@mixin shortExplanationSizes {
+  margin-top: 120px;
+  margin-left: -400px;
+  padding-top: 20px;
+}
+
+// Media query
+
+@media screen and (max-width: 860px) {
+  .input-style {
+    width: 300px;
+  }
+  .short-explanation {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  .description-style h1 {
+    font-size: 40px;
+  }
+  .service-logo-style {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 640px) {
+  .input-style {
+    @include size1();
+  }
+  .short-explanation {
+    @include shortExplanationSizes();
+  }
+  .description-style h1 {
+    font-size: 37px;
+  }
+  .service-logo-style {
+    width: 190px;
+    height: 190px;
+  }
+  .service-description-style {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .input-style {
+    @include size1();
+  }
+  .short-explanation {
+    @include shortExplanationSizes();
+  }
+  .description-style h1 {
+    font-size: 37px;
+  }
+  .service-logo-style {
+    width: 180px;
+    height: 180px;
+    margin-right: 10px;
+  }
+  .service-description-style {
+    @include size1();
+  }
+}
+@media screen and (max-width: 480px) {
+  .input-style {
+    @include size2();
+  }
+  .short-explanation {
+    margin-top: 120px;
+    margin-left: -250px;
+    padding-top: 20px;
+    width: 250px;
+  }
+  .description-style h1 {
+    font-size: 35px;
+    width: 200px;
+  }
+  .service-logo-style {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+  .service-description-style {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .input-style {
+    @include size2();
+  }
+  .short-explanation {
+    margin-top: 120px;
+    margin-left: -250px;
+    padding-top: 20px;
+    font-size: 10px;
+    width: 250px;
+  }
+  .description-style h1 {
+    font-size: 30px;
+    width: 150px;
+  }
+  .service-logo-style {
+    width: 120px;
+    height: 120px;
+    margin-right: 0px;
+    margin-top: -120px;
+  }
+  .service-description-style {
+    width: 250px;
+  }
+}
+
+// Media query ends

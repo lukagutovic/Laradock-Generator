@@ -1,0 +1,576 @@
+
+{
+    "data": {
+      "categories": [
+        {
+          "id": "6ccf9b06-1273-452e-bccb-6a05f3e8df3b",
+          "name": "Laradock",
+          "description": null,
+          "services_aggregate": {
+            "aggregate": {
+              "count": 2,
+              "__typename": "services_aggregate_fields"
+            },
+            "__typename": "services_aggregate"
+          },
+          "services": [
+            {
+              "id": "304f91e8-1281-497c-a84d-48ea39d85b78",
+              "category_id": "6ccf9b06-1273-452e-bccb-6a05f3e8df3b",
+              "name": "PHP Worker",
+              "description": "",
+              "active": null,
+              "variables": [
+                {
+                  "id": "042e7fce-4375-4489-913b-5b25344012d7",
+                  "name": "PHP_WORKER_INSTALL_BZ2",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "b4ab6e52-d645-4b58-992a-f9109b23851f",
+                  "name": "PHP_WORKER_INSTALL_GMP",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "38cb6416-245b-4aa1-8420-cfbc703bd9c1",
+                  "name": "PHP_WORKER_INSTALL_PGSQL",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "b9d947ff-21f6-4894-94a6-ca8b16e61d46",
+                  "name": "PHP_WORKER_INSTALL_BCMATH",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "9a7fe79f-d872-4c03-892c-5dcbbd5a5aca",
+                  "name": "PHP_WORKER_INSTALL_PHALCON",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "4dd84997-31dc-4610-86d9-5c1b3c5f4108",
+                  "name": "PHP_WORKER_INSTALL_SOAP",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "0df98237-6e44-4ed3-9a8f-c9e1dd5fa017",
+                  "name": "PHP_WORKER_INSTALL_ZIP_ARCHIVE",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "b232a1a0-406c-401f-ab76-f43df95a48c6",
+                  "name": "PHP_WORKER_INSTALL_MYSQL_CLIENT",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "9cf75cce-69a0-417c-be14-d2e408131a92",
+                  "name": "PHP_WORKER_INSTALL_AMQP",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "532fa64b-1510-448e-99fd-993eeb28934c",
+                  "name": "PHP_WORKER_INSTALL_GHOSTSCRIPT",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "c29bc235-b1ea-4bbd-9bb7-e4f09fac8c23",
+                  "name": "PHP_WORKER_INSTALL_SWOOLE",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "b069b397-e118-4996-b110-5b4735ebf4e7",
+                  "name": "PHP_WORKER_INSTALL_TAINT",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "b1586978-3c3b-43ac-8b4c-3d86ba993392",
+                  "name": "PHP_WORKER_INSTALL_FFMPEG",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "5cfcc648-4041-4ea8-beab-4da511e7f807",
+                  "name": "PHP_WORKER_INSTALL_CASSANDRA",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "96a7c9bd-1c21-4729-9f94-1cd804a00277",
+                  "name": "PHP_WORKER_INSTALL_GEARMAN",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "cbfda21f-3672-4708-8cab-d1f5535ec619",
+                  "name": "PHP_WORKER_INSTALL_REDIS",
+                  "default_value": "false",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "e107b4c0-ba02-4770-bc1b-ccc47293b420",
+                  "name": "PHP_WORKER_PUID",
+                  "default_value": "1000",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "d9458909-d4bf-4353-8e0e-762d7d7946a9",
+                  "name": "PHP_WORKER_PGID",
+                  "default_value": "1000",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "f38d4530-6eab-491b-96f0-5669fc10b4d8",
+              "category_id": "6ccf9b06-1273-452e-bccb-6a05f3e8df3b",
+              "name": "Workspace",
+              "description": "A container that holds your code.",
+              "active": true,
+              "variables": [],
+              "__typename": "services"
+            }
+          ],
+          "__typename": "categories"
+        },
+        {
+          "id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+          "name": "Web Servers",
+          "description": null,
+          "services_aggregate": {
+            "aggregate": {
+              "count": 3,
+              "__typename": "services_aggregate_fields"
+            },
+            "__typename": "services_aggregate"
+          },
+          "services": [
+            {
+              "id": "a0763de2-039b-43ef-8c96-2ad3a2e6f91c",
+              "category_id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+              "name": "Apache2",
+              "description": "The Apache HTTP Server, colloquially called Apache, is free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.",
+              "active": null,
+              "variables": [
+                {
+                  "id": "a974decd-59d1-4489-a3fe-f48de037a8bf",
+                  "name": "APACHE_HOST_HTTP_PORT",
+                  "default_value": "80",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "f603a08e-552d-406c-b856-5c8cf1c8fbd0",
+                  "name": "APACHE_HOST_HTTPS_PORT",
+                  "default_value": "443",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "96994cb8-d06d-4331-9f96-1fe7f7527b47",
+                  "name": "APACHE_HOST_LOG_PATH",
+                  "default_value": "./logs/apache2",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "2b2a63f5-d1af-4a57-9870-ea693e5276c7",
+                  "name": "APACHE_SITES_PATH",
+                  "default_value": "./apache2/sites",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "3fc9f884-cd1e-4922-a91a-46df40436914",
+                  "name": "APACHE_PHP_UPSTREAM_CONTAINER",
+                  "default_value": "php-fpm",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "d18ebf0b-0692-4909-a50b-ce2b8329aea7",
+                  "name": "APACHE_PHP_UPSTREAM_PORT",
+                  "default_value": "9000",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "f4d110e0-5c78-4107-932d-cd1f28b208d5",
+                  "name": "APACHE_PHP_UPSTREAM_TIMEOUT",
+                  "default_value": "60",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "2f519f5a-7310-488c-965a-1eb5f3482c4a",
+                  "name": "APACHE_DOCUMENT_ROOT",
+                  "default_value": "/var/www/",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "90af12b7-d2cf-4d13-b932-e085d9e58852",
+              "category_id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+              "name": "Caddy",
+              "description": "Caddy, sometimes clarified as the Caddy web server, is an open source, HTTP/2-enabled web server written in Go. It uses the Go standard library for its HTTP functionality. One of Caddy's most notable features is enabling HTTPS by default. ",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            },
+            {
+              "id": "e33b7c06-19c8-4466-a301-4e98e3592331",
+              "category_id": "2ad719f5-4952-434b-bc0b-d69e9cbf2c0c",
+              "name": "Nginx",
+              "description": "Nginx is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and first publicly released in 2004.",
+              "active": true,
+              "variables": [
+                {
+                  "id": "7ca794d7-65f7-41f8-a661-195fe604f7ab",
+                  "name": "NGINX_HOST_HTTP_PORT",
+                  "default_value": "80",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "533a2d9a-12d1-4195-abe6-4e489430e946",
+                  "name": "NGINX_HOST_HTTPS_PORT",
+                  "default_value": "443",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "f3c642c0-1a6f-414f-8e37-3f172977cac5",
+                  "name": "NGINX_HOST_LOG_PATH",
+                  "default_value": "./logs/nginx/",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "8cbcdeb6-db5b-45d0-b6fd-c6f9a50ec5e2",
+                  "name": "NGINX_SITES_PATH",
+                  "default_value": "./nginx/sites/",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "161c664f-78c1-45bf-9e3f-733dc7bb6e7c",
+                  "name": "NGINX_PHP_UPSTREAM_CONTAINER",
+                  "default_value": "php-fpm",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "52f6d899-82a2-4482-999e-55feb095944b",
+                  "name": "NGINX_PHP_UPSTREAM_PORT",
+                  "default_value": "9000",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "46d3b01e-6233-4b32-8b22-86606a62e696",
+                  "name": "NGINX_SSL_PATH",
+                  "default_value": "./nginx/ssl/",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            }
+          ],
+          "__typename": "categories"
+        },
+        {
+          "id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+          "name": "Database Management Systems",
+          "description": null,
+          "services_aggregate": {
+            "aggregate": {
+              "count": 11,
+              "__typename": "services_aggregate_fields"
+            },
+            "__typename": "services_aggregate"
+          },
+          "services": [
+            {
+              "id": "ce0599ce-54dc-4e6e-821e-83c57eec572e",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "MariaDB",
+              "description": "MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.",
+              "active": null,
+              "variables": [
+                {
+                  "id": "b9eca4f8-ac28-40f3-996e-5828bb01df9d",
+                  "name": "MARIADB_VERSION",
+                  "default_value": "latest",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "4bfe1a0c-d1c5-4114-b988-ce5a64e33700",
+                  "name": "MARIADB_DATABASE",
+                  "default_value": "default",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "860fe6b4-7362-41a1-aeca-33e82dece1aa",
+                  "name": "MARIADB_USER",
+                  "default_value": "default",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "313e819c-a881-46ce-b91a-d144b1518dd4",
+                  "name": "MARIADB_PASSWORD",
+                  "default_value": "secret",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "6aa27ae1-9d57-48f0-a9e2-35a49d3d4304",
+                  "name": "MARIADB_PORT",
+                  "default_value": "3306",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "7dd5fe46-9a35-4ee1-8755-30646b2712a5",
+                  "name": "MARIADB_ROOT_PASSWORD",
+                  "default_value": "root",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "2885460b-7074-47e4-9c6f-f122f6647a57",
+                  "name": "MARIADB_ENTRYPOINT_INITDB",
+                  "default_value": "./mariadb/docker-entrypoint-initdb.d",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "2c3f053d-b84d-49dd-b226-b1cfaa2f22dd",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "MySQL",
+              "description": "MySQL is an open-source relational database management system. Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language.",
+              "active": true,
+              "variables": [
+                {
+                  "id": "d46b0ce4-2b73-4643-aec7-40605bec3413",
+                  "name": "MYSQL_VERSION",
+                  "default_value": "latest",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "4bac1072-4e90-4c3e-99e0-3599fbb6208a",
+                  "name": "MYSQL_DATABASE",
+                  "default_value": "default",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "ee3771e1-d858-4d13-a97c-6d4bdd79e578",
+                  "name": "MYSQL_USER",
+                  "default_value": "default",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "d45b41e0-2be6-47bc-8c3f-0e1c3d7a53bd",
+                  "name": "MYSQL_PASSWORD",
+                  "default_value": "secret",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "0b0fc119-2b8b-4431-b3e9-be0a2cf672c8",
+                  "name": "MYSQL_PORT",
+                  "default_value": "3306",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "107890cb-1de2-48b7-9ca5-330737d70e6b",
+                  "name": "MYSQL_ROOT_PASSWORD",
+                  "default_value": "root",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "c654d668-cf14-430d-ad2f-ad20b7a2c578",
+                  "name": "MYSQL_ENTRYPOINT_INITDB",
+                  "default_value": "./mysql/docker-entrypoint-initdb.d",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "d61ea669-6555-402c-af9f-01def1c16686",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "CouchDB",
+              "description": "DescriptionApache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data, it uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API. ",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            },
+            {
+              "id": "78e16490-bc09-47f7-af5e-82e634fafd5b",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "PostgreSQL",
+              "description": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users.",
+              "active": null,
+              "variables": [
+                {
+                  "id": "9a32f6e7-5530-4519-b7f7-ac6eb20daab1",
+                  "name": "POSTGRES_VERSION",
+                  "default_value": "alpine",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "afb76b44-abcf-492d-9464-5340d1ad9d51",
+                  "name": "POSTGRES_DB",
+                  "default_value": "default",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "02b17ae9-cd94-404b-9536-90c3e2bab3d9",
+                  "name": "POSTGRES_USER",
+                  "default_value": "default",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "545c22b0-d3fa-4fe6-8059-fc828c097b40",
+                  "name": "POSTGRES_PASSWORD",
+                  "default_value": "secret",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "97eff99b-9982-475e-93d1-8e299335dc1d",
+                  "name": "POSTGRES_PORT",
+                  "default_value": "5432",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "c5f807d3-8c13-473f-aa45-99da9f526f0e",
+                  "name": "POSTGRES_ENTRYPOINT_INITDB",
+                  "default_value": "./postgres/docker-entrypoint-initdb.d",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "20d2a2cd-d345-4e46-b4bf-ec3ec4ed7968",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "PostGIS",
+              "description": "PostGIS is a spatial database extender for PostgreSQL object-relational database. It adds support for geographic objects allowing location queries to be run in SQL.",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            },
+            {
+              "id": "023922be-45a9-4ac4-9d57-d7dcced31731",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "Percona",
+              "description": "Percona Server for MySQL is a distribution of the MySQL relational database management system created by Percona. Percona Server for MySQL is an open source relational database management system. It is a free, fully compatible drop in replacement for Oracle MySQL.",
+              "active": null,
+              "variables": [
+                {
+                  "id": "3bdc8e3d-61eb-4dad-8409-379140751f74",
+                  "name": "PERCONA_DATABASE",
+                  "default_value": "homestead",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "dbb38d74-666c-4e18-84fa-47d1b1406a1d",
+                  "name": "PERCONA_USER",
+                  "default_value": "homestead",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "acaccec3-7a86-4768-9620-f663871296f3",
+                  "name": "PERCONA_PASSWORD",
+                  "default_value": "secret",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "520ff0b1-6204-4227-ac3c-3ea262a1579e",
+                  "name": "PERCONA_PORT",
+                  "default_value": "3306",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "1e4e746f-6dfa-440d-b861-9a5d894d0776",
+                  "name": "PERCONA_ROOT_PASSWORD",
+                  "default_value": "root",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "624b7558-be93-47c2-b3a2-19314ed00170",
+                  "name": "PERCONA_ENTRYPOINT_INITDB",
+                  "default_value": "./percona/docker-entrypoint-initdb.d",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "271e6a41-2164-43d0-8282-1168a2ab6ede",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "MSSQL",
+              "description": "Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.",
+              "active": null,
+              "variables": [
+                {
+                  "id": "8ce0a036-7af0-4ce9-818e-0a54d2f70900",
+                  "name": "MSSQL_DATABASE",
+                  "default_value": "master",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "5b3e4dbe-ec8d-4cff-a645-44ccf6817341",
+                  "name": "MSSQL_PASSWORD",
+                  "default_value": "\"yourStrong(!)Password\"",
+                  "__typename": "variables"
+                },
+                {
+                  "id": "2c3d1534-5aa7-4737-9964-e5496287acc7",
+                  "name": "MSSQL_PORT",
+                  "default_value": "1433",
+                  "__typename": "variables"
+                }
+              ],
+              "__typename": "services"
+            },
+            {
+              "id": "f5112c33-7da4-4abd-9251-be6d3ffa5252",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "MongoDB",
+              "description": "MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema.",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            },
+            {
+              "id": "cf8a7bff-5191-439b-b0dd-ce49b4f7d8d0",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "Neo4j",
+              "description": "Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing, Neo4j is the most popular graph database according to DB-Engines ranking, and the 22nd most popular database overall.",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            },
+            {
+              "id": "92e3f512-5c1c-497d-a97a-b737e2a03bb1",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "RethinkDB",
+              "description": "RethinkDB is a free and open-source, distributed document-oriented database originally created by the company of the same name. The database stores JSON documents with dynamic schemas, and is designed to facilitate pushing real-time updates for query results to applications.",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            },
+            {
+              "id": "6f03ebb3-bde8-487e-b9e2-5241c1338f27",
+              "category_id": "5ea15351-dea2-483e-bb34-c0de37c2fb46",
+              "name": "Cassandra",
+              "description": "DescriptionApache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.",
+              "active": null,
+              "variables": [],
+              "__typename": "services"
+            }
+          ],
+          "__typename": "categories"
+        }
+      ]
+    }
+  }
